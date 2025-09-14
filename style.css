@@ -238,3 +238,79 @@ footer{
 .pages a{
     font-size: 0.7rem;
 }
+
+/* Responsive for mobile devices */
+@media (max-width:768px){
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+    }
+    .nav-address , .nav-signin , .nav-return{
+        display: none;
+    }
+    .nav-logo{
+        margin-right: 10px;
+    }
+    .nav-search{
+        width: 90%;
+        margin: 10px 5%;
+    }
+    .nav-cart{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    /* Panel Adjustment */
+    .panel{
+        display: none;
+    }
+    /*Hero section Adjustment*/
+    .hero-section{
+        height: 200px;
+    }
+    .hero-msg{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    /*Shop section Adjustment*/
+    .shop-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    /*Footer section Adjustment*/
+    .foot-panel2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 20px 0;
+    }
+    .foot-panel2 ul{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .foot-panel2 a{
+        margin: 5px 0;
+    }
+    .foot-panel3{
+        display: none;
+    }
+    .foot-panel4{
+        height: auto;
+        padding: 10px 0;
+    }
+    .pages{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .pages a{
+        margin: 5px 0;
+    }
+}
